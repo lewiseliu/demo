@@ -1,13 +1,5 @@
 # Starter pipeline
-- task: TerraformTaskV3@3
-  inputs:
-    provider: 'azurerm'
-    command: 'init'
-    backendServiceArm: '免费试用 (11bb468f-44d6-4bc9-9e03-5c02113a8604)'
-    backendAzureRmResourceGroupName: 'Demo_RG'
-    backendAzureRmStorageAccountName: 'demoterraformstorage001'
-    backendAzureRmContainerName: 'terraform-state'
-    backendAzureRmKey: 'terraform-stste-storage-key111'
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
